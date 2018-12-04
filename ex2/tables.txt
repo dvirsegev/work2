@@ -1,0 +1,8 @@
+table IdSuplier(int id)
+table employees(string id, int birth_year, int senitory, string idBoss, Job job )
+table reservations(string flight_id, string customer_id, int max_baggage,Classes class,Date date)
+table plain(string id_plain, int model, int maxFirstClass, int maxSecondClass,list<Employee*> workers)
+table flights(string id_flights, int model, string source, string destination)
+table schedule(string id_employee, string id_flight, Date date) 
+table cust (string id_customer, int priority, string full_name )
+
